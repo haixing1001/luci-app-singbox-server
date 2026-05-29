@@ -8,7 +8,7 @@ LUCI_TITLE:=LuCI support for standalone sing-box server
 LUCI_DEPENDS:= +ucode-mod-fs +ucode-mod-uci
 LUCI_NAME:=luci-app-singbox-server
 PKG_VERSION:=1.0.0
-PKG_RELEASE:=1
+PKG_RELEASE:=0
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
@@ -17,4 +17,4 @@ LUCI_CONFFILES:=\
 	/etc/singbox-server/certs/
 
 # call BuildPackage - OpenWrt buildroot signature
-$(eval $(call BuildPackage,$(LUCI_NAME)))
+# $(eval $(call BuildPackage,$(LUCI_NAME)))
