@@ -4,11 +4,11 @@ include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI support for sing-box server
 LUCI_PKGARCH:=all
-LUCI_DEPENDS:=+sing-box +luci-base +rpcd +uci +ucode
+LUCI_DEPENDS:=+luci-base +rpcd +uci +ucode
 
 PKG_NAME:=luci-app-singbox-server
 PKG_VERSION:=1.0.0
-PKG_RELEASE:=1
+PKG_RELEASE:=0
 
 define Package/luci-app-singbox-server/conffiles
 /etc/config/singbox_server
