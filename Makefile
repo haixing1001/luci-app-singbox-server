@@ -5,7 +5,7 @@
 include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=LuCI support for standalone sing-box server
-LUCI_DEPENDS:=+sing-box +ucode-mod-fs +ucode-mod-uci
+LUCI_DEPENDS:= +ucode-mod-fs +ucode-mod-uci
 LUCI_NAME:=luci-app-singbox-server
 PKG_VERSION:=1.0.0
 PKG_RELEASE:=1
