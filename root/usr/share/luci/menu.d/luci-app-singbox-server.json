@@ -1,0 +1,13 @@
+{
+  "admin/services/singbox-server": {
+    "title": "sing-box Server",
+    "order": 60,
+    "action": {
+      "type": "view",
+      "path": "singbox-server/status"
+    },
+    "depends": {
+      "acl": [ "luci-app-singbox-server" ]
+    }
+  }
+}

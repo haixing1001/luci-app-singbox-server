@@ -1,0 +1,17 @@
+{
+  "luci-app-singbox-server": {
+    "description": "Grant access to sing-box server LuCI app",
+    "read": {
+      "uci": [ "singbox_server" ],
+      "file": {
+        "/etc/init.d/singbox_server": [ "exec" ]
+      }
+    },
+    "write": {
+      "uci": [ "singbox_server" ],
+      "file": {
+        "/etc/init.d/singbox_server": [ "exec" ]
+      }
+    }
+  }
+}
